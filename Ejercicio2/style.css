@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Red Rose", sans-serif;
+    
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 65px;
+    background-color: rgb(160, 103, 165);
+}
+
+a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+li {
+    margin: 10px;
+}
+
+.header {
+    display: flex;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+.icono {
+    display: none;
+}
+
+
+@media (max-width: 600px) { 
+    .icono { 
+        color: #fafafa;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    li {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-with: 600 px) {
+    header {
+        justify-content: flex-end;
+    }
+    nav {   
+        display: none;
+    } 
+    .icono {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: black;
+    }
+}
